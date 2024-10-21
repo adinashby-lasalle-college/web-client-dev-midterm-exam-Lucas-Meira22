@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 16px;
+    
+}
+header{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 6px;
+}
+nav {
+    background-color: green;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main section {
+    width: 45%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+ h1  {
+    text-align: center;
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+}
+
+label {
+    display: block;
+    margin: 1em 0;
+    text-align: center;
+  }
+
+label text{
+    align-items: center;
+  }
+
+input , textarea{
+margin: 10px 0 0 0;
+width: 100%;
+min-height: 2em;
+border-radius: 8px;
+border-color: 10px green solid;
+transition: font-size 0.3s ease; 
+}
+
+
+
+input:focus, textarea:focus {
+    font-size: 20px; 
+    outline: none; 
+}
+
+
+
+.media {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px;              
+    padding: 20px;
+}
+
+.photo, .audios, .videos {
+    text-align: center;     
+}
+
+img, audio, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.table {
+    display: flex;              
+    justify-content: center;    
+    margin: 20px 0;            
+}
+
+table {
+    width: 50%;                
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;          
+}
+
+th {
+    background-color: #ff1e1e; 
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; 
+}
+
+hr{
+    border-top: 2px dashed red;
+
+}
+
+.list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(167, 250, 120); 
+    border-radius: 8px;      
+}
+
+h4 {
+    text-align: center;
+    color: #333;
+}
+
+
+
+ol li {
+    margin: 10px 0;
+}
+
+ol li::marker {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+footer{
+    background-color: green;
+    padding: 16px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+#submit-btn :hover{
+    border-color: red;
+    
+}
+
+
